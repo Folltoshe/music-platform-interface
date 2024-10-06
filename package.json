@@ -1,0 +1,43 @@
+{
+  "name": "music-platform-interface",
+  "version": "1.0.0",
+  "description": "Music Platform Interface",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "rimraf dist && tsc"
+  },
+  "author": "Folltoshe",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Folltoshe/music-platform-interface.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Folltoshe/music-platform-interface/issues"
+  },
+  "homepage": "https://github.com/Folltoshe/music-platform-interface#readme",
+  "keywords": [
+    "music",
+    "interface",
+    "api"
+  ],
+  "files": [
+    "dist/",
+    "package.json"
+  ],
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.2",
+    "@types/lodash": "^4.17.4",
+    "nodemon": "^3.1.0",
+    "rimraf": "^5.0.7",
+    "ts-node": "^10.9.1",
+    "tsc-alias": "^1.8.8",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.2.2"
+  }
+}
